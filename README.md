@@ -10,7 +10,6 @@ Build, train, evaluate, and save machine learning models to detect network intru
 - `dataset 1/assignment.ipynb` — Notebook using a Kaggle-like Network Intrusion Detection dataset (Train_data.csv / Test_data.csv). Preprocessing, Random Forest training, model save (`rf_model.joblib`).
 
 - `dataset 2/dataset2.ipynb` — Notebook using the UNSW-NB15 dataset (training and testing CSVs). Preprocessing, Random Forest training, evaluation, and confusion matrix plotting.
-- `dataset 1/cleaned_dataset.csv` — Cleaned training data produced by the first notebook (if run).
 
 
 ## Dataset Setup Instructions
@@ -75,14 +74,23 @@ Expected outcomes: Reasonable accuracy for binary normal/attack detection. For m
 
 ## Repository Structure
 project/
+
 ├── dataset 1/
+
 │ ├── assignment.ipynb
+
 │ ├── cleaned_dataset.csv (generated)
+
 │ └── rf_model.joblib (generated)
+
 ├── dataset 2/
+
 │ ├── dataset2.ipynb
+
 │ └── UNSW-NB15/
+
 │ ├── UNSW_NB15_training-set.csv
+
 │ └── UNSW_NB15_testing-set.csv
 
 ## Next Steps / Recommendations
